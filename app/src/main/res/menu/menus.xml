@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/irFavoritos"
+        android:icon="@drawable/estrellafavoritos"
+        android:title="Ir a favoritos"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/otros"
+        android:title=""
+        app:showAsAction="never" />
+</menu>

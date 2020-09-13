@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevacion_toolbar">4dp</dimen>
+    <dimen name="elevacion_floating_boton">6dp</dimen>
+    <dimen name="elevacion_cardview">1dp</dimen>
+    <dimen name="size_texto_toolbar">30sp</dimen>
+    <dimen name="size_texto_nombre">24sp</dimen>
+    <dimen name="cardview_corner_radius">4dp</dimen>
+    <dimen name="margen_rating">10dp</dimen>
+    <dimen name="margen_floating_boton">5dp</dimen>
+    <dimen name="margen_inferior_floating_boton">60dp</dimen>
+    <dimen name="margen_separador">4dp</dimen>
+    <dimen name="altura_separador">1dp</dimen>
+</resources>

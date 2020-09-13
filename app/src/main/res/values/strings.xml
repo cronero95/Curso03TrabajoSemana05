@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombre_cachorro_base">Cachorro Base</string>
+    <string name="valor_inicial_rating">0</string>
+</resources>
