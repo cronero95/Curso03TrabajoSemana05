@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cronero.curso03trabajosemana03">
+    package="com.cronero.curso03trabajosemana05">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -9,13 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MascotasGustadas"
-            android:parentActivityName=".MainActivity">
+        <activity
+            android:name="com.cronero.curso03trabajosemana05.Acerca"
+            android:parentActivityName="com.cronero.curso03trabajosemana05.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.cronero.curso03trabajosemana05.MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.cronero.curso03trabajosemana05.Contacto"
+            android:parentActivityName="com.cronero.curso03trabajosemana05.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cronero.curso03trabajosemana05.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.cronero.curso03trabajosemana05.MascotasGustadas"
+            android:parentActivityName="com.cronero.curso03trabajosemana05.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cronero.curso03trabajosemana05.MainActivity" />
+        </activity>
+        <activity android:name="com.cronero.curso03trabajosemana05.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

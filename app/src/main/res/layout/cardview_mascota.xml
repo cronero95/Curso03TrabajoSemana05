@@ -4,17 +4,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardviewMascotasVer"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
     app:cardCornerRadius="@dimen/cardview_corner_radius"
-    android:elevation="@dimen/elevacion_cardview">
+    android:elevation="@dimen/elevacion_cardview"
+    android:layout_marginLeft="@dimen/margen_cardview"
+    android:layout_marginRight="@dimen/margen_cardview"
+    android:layout_marginTop="@dimen/margen_cardview">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imagenCachorro"
@@ -35,14 +35,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imagenCachorro"
             android:background="@null"
-            app:srcCompat="@drawable/corazonperrolike"
+            app:srcCompat="@null"
             android:elevation="@dimen/elevacion_toolbar" />
 
         <TextView
             android:id="@+id/nombreCachorro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nombre_cachorro_base"
+            android:text=""
             android:textSize="@dimen/size_texto_nombre"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/botonLike"
@@ -73,7 +73,7 @@
             android:layout_height="@dimen/altura_separador"
             android:layout_marginTop="@dimen/margen_separador"
             android:background="@color/colorPrimaryDark"
-            app:layout_constraintTop_toBottomOf="@+id/botonLike"
+            app:layout_constraintTop_toBottomOf="@+id/imagenRating"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
 

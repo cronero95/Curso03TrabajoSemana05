@@ -2,4 +2,34 @@
     <string name="app_name">Petagram</string>
     <string name="nombre_cachorro_base">Cachorro Base</string>
     <string name="valor_inicial_rating">0</string>
+    <string-array name="nombres_cachorros">
+        <item>Lucky</item>
+        <item>Star</item>
+        <item>Snow</item>
+        <item>Buddy</item>
+        <item>Lucy</item>
+        <item>Max</item>
+        <item>Molly</item>
+    </string-array>
+    <string name="mFavoritos">Ir a Favoritos</string>
+    <string name="mContacto">Contacto</string>
+    <string name="mAcerca">Acerca De</string>
+    <string name="texto_nombre">Nombre</string>
+    <string name="texto_correo">Correo</string>
+    <string name="texto_mensaje">Mensaje</string>
+    <string name="titulo_contacto">Deja un mensaje</string>
+    <string name="boton_enviar_comentario">Enviar Comentario</string>
+    <string name="bio_desarrollador">Juan Pablo Arias es un estudiante de ingeniería electrónica de
+        la Universidad del Valle, sede Melendez.\nNacido en Cali, Colombia. Actualmente se encuentra
+        en su último año de carrera desarrollando un proyecto de grado que propone la detección de
+        signos de fatiga usando visión artificial.</string>
+    <string name="mensaje_enviado">Mensaje Enviado Correctamente</string>
+    <string name="mensaje_no_enviado">Hubo un Problema</string>
+    <string name="asunto_contacto">Nuevo Mensaje en Petagram</string>
+    <string name="nombre_contacto">Nombre:</string>
+    <string name="correo_contacto">Correo:</string>
+    <string name="mensaje_contacto">Mensaje:</string>
+    <string name="correo_mensaje">juan@gmail.com</string>
+    <string name="contrasena_mensaje">12E4sG78q</string>
+    <string name="destinatario_mensaje">pablo@gmail.com</string>
 </resources>

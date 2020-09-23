@@ -11,4 +11,10 @@
     <dimen name="margen_inferior_floating_boton">60dp</dimen>
     <dimen name="margen_separador">4dp</dimen>
     <dimen name="altura_separador">1dp</dimen>
+    <dimen name="margen_derecho_contacto">10dp</dimen>
+    <dimen name="margen_izquierdo_contacto">20dp</dimen>
+    <dimen name="margen_cardview">20dp</dimen>
+    <dimen name="ancho_imagen_cricular">150dp</dimen>
+    <dimen name="ancho_border_imagen_circular">4dp</dimen>
+    <dimen name="margen_final_mis_fotos">230dp</dimen>
 </resources>

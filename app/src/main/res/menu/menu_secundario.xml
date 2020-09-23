@@ -2,7 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/otros2"
-        android:title=""
-        app:showAsAction="never" />
+        android:id="@+id/menu_contacto"
+        android:title="@string/mContacto"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/menu_acerca"
+        android:title="@string/mAcerca"
+        app:showAsAction="never"
+        android:orderInCategory="101"/>
 </menu>
