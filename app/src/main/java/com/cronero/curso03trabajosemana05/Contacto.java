@@ -47,9 +47,9 @@ public class Contacto extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbarback);
 
-        correo = activity.getString(R.string.correo_mensaje);
-        contrasena = activity.getString(R.string.contrasena_mensaje);
-        destinatario = activity.getString(R.string.destinatario_mensaje);
+        correo = this.getString(R.string.correo_mensaje);
+        contrasena = this.getString(R.string.contrasena_mensaje);
+        destinatario = this.getString(R.string.destinatario_mensaje);
 
         campoNombre = findViewById(R.id.campoNombre);
         campoCorreo = findViewById(R.id.campoCorreo);

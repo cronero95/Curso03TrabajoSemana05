@@ -128,10 +128,11 @@ public class BaseDatos extends SQLiteOpenHelper {
         ArrayList<Mascota> mascotasGustadasActualizadas = new ArrayList<>();
 
         String query = "SELECT * FROM " + ConstantesBaseDatos.TABLE_LIKES_PETS + " ORDER BY "
-                + ConstantesBaseDatos.TABLE_LIKES_PETS_ID + " DESC LIMIT 5";
+                + ConstantesBaseDatos.TABLE_LIKES_PETS_ID + " DESC";
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor registros = db.rawQuery(query, null);
 
+        ArrayList<Integer> idMascota = new ArrayList<>();
         while (registros.moveToNext()){
             Mascota mascotaGustadaNuevaActual = new Mascota();
             mascotaGustadaNuevaActual.setId(registros.getInt(1));
@@ -139,7 +140,13 @@ public class BaseDatos extends SQLiteOpenHelper {
             mascotaGustadaNuevaActual.setNombre(registros.getString(3));
             mascotaGustadaNuevaActual.setFoto(registros.getInt(4));
 
-            mascotasGustadasActualizadas.add(mascotaGustadaNuevaActual);
+            if (!idMascota.contains(registros.getInt(1))){
+                mascotasGustadasActualizadas.add(mascotaGustadaNuevaActual);
+                idMascota.add(registros.getInt(1));
+            }
+            if (idMascota.size() == 5){
+                break;
+            }
         }
 
         db.close();
